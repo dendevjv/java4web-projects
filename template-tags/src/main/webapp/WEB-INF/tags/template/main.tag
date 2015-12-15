@@ -1,5 +1,5 @@
 <%@ tag body-content="scriptless" dynamic-attributes="dynamicAttributes"
-        trimDirectiveWhitespaces="true" %>
+        trimDirectiveWhitespaces="true" pageEncoding="UTF-8"  %>
 <%@ attribute name="htmlTitle" type="java.lang.String" rtexprvalue="true"
         required="true" %>
 <%@ include file="/WEB-INF/jsp/base.jspf" %>
