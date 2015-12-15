@@ -16,4 +16,14 @@
   <build>
     <finalName>template-tags</finalName>
   </build>
+  
+  <dependencies>
+  	<dependency>
+  		<!-- Used in FormatDateTag.java -->
+  		<groupId>org.apache.commons</groupId>
+  		<artifactId>commons-lang3</artifactId>
+  		<version>3.1</version>
+  		<scope>compile</scope>
+  	</dependency>
+  </dependencies>
 </project>
