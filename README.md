@@ -19,4 +19,5 @@
 * customer-support-v6 project
 
 #### C9. Using Filters
-* filter-order
+* filter-order -- Exploring filter order
+* filter-async -- Using Filters with Asynchronous Request Handling
