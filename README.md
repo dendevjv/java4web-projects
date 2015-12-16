@@ -17,3 +17,6 @@
 #### C8. Custom Tag and Function Libraries
 * template-tags project
 * customer-support-v6 project
+
+#### C9. Using Filters
+* filter-order
