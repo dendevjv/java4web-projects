@@ -16,6 +16,7 @@
 		<module>address-book</module>
 		<module>template-tags</module>
     	<module>filter-order</module>
+    <module>filter-async</module>
   </modules>
 
 	<dependencies>
