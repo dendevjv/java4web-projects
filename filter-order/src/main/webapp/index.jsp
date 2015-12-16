@@ -15,6 +15,9 @@
     <p>
         <a href="foo/servletThree">servletThree</a>
     </p>
-
+    <p>
+        <a href="servletFour">servletFour</a>
+    </p>
+    
 </body>
 </html>

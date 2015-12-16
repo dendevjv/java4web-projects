@@ -41,4 +41,14 @@
   	<filter-name>filterD</filter-name>
   	<url-pattern>/foo/*</url-pattern>
   </filter-mapping>
+  
+  <filter>
+  	<filter-name>filterE</filter-name>
+  	<filter-class>ru.dendevjv.java4web.filter_order.FilterE</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>filterE</filter-name>
+  	<url-pattern>/*</url-pattern>
+  	<dispatcher>FORWARD</dispatcher>
+  </filter-mapping>
 </web-app>
