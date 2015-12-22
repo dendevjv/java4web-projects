@@ -18,7 +18,8 @@
 		<module>filter-order</module>
 		<module>filter-async</module>
 		<module>compression-filter</module>
-    <module>game-site</module>
+	    <module>game-site</module>
+	    <module>simulated-cluster</module>
   </modules>
 
 	<dependencies>

@@ -25,3 +25,4 @@
 
 #### C10. WebSockets
 * game-site -- Creating two-player game
+* simulated-cluster -- Using websockets to communicate in a cluster
