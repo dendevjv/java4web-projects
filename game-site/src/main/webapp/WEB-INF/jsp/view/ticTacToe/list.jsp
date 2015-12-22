@@ -1,6 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%-- @elvariable id="pendingGames" type="java.util.Map<Long, java.lang.String>" --%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>        <%-- Added for Eclipse --%>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>  <%-- Added for Eclipse --%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +29,7 @@
         </c:otherwise>
     </c:choose>
 
-    <script type="text/javascript" language="javascript">
+    <script type="text/javascript">
         var startGame, joinGame;
         $(document).ready(function() {
             var url = '<c:url value="/ticTacToe" />';
